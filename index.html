@@ -1,0 +1,240 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caro Salper | Página Personal</title>
+
+    <!-- Fuentes aesthetic -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+            color:#1e293b;
+            text-align:center;
+            padding:40px;
+        }
+
+        .contenedor{
+            max-width:900px;
+            margin:auto;
+            background:white;
+            border-radius:25px;
+            padding:40px;
+            box-shadow:0px 0px 25px rgba(0,0,0,0.1);
+        }
+
+        .foto{
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            object-fit:cover;
+            border:5px solid #93c5fd;
+            margin-bottom:25px;
+        }
+
+        h1{
+            font-family: 'Playfair Display', serif;
+            font-size:55px;
+            margin-bottom:15px;
+            color:#1e3a8a;
+        }
+
+        .descripcion-principal{
+            font-size:20px;
+            color:#475569;
+            line-height:1.8;
+            margin-bottom:40px;
+        }
+
+        .archivo{
+            background:#eff6ff;
+            padding:30px;
+            border-radius:20px;
+            margin-top:20px;
+        }
+
+        .archivo h2{
+            color:#2563eb;
+            margin-bottom:15px;
+        }
+
+        .descripcion{
+            color:#64748b;
+            margin-bottom:20px;
+            line-height:1.6;
+        }
+
+        .boton{
+            display:inline-block;
+            padding:15px 35px;
+            background:#60a5fa;
+            color:white;
+            text-decoration:none;
+            border-radius:15px;
+            font-size:18px;
+            font-weight:500;
+            transition:0.3s;
+            box-shadow:0px 0px 15px rgba(96,165,250,0.5);
+        }
+
+        .boton:hover{
+            background:#3b82f6;
+            transform:scale(1.08);
+        }
+
+        .redes{
+            margin-top:50px;
+        }
+
+        .redes h2{
+            margin-bottom:20px;
+            color:#1e3a8a;
+        }
+
+        .redes a{
+            display:inline-block;
+            margin:10px;
+            text-decoration:none;
+            color:white;
+            background:#3b82f6;
+            padding:12px 25px;
+            border-radius:12px;
+            transition:0.3s;
+        }
+
+        .redes a:hover{
+            background:#2563eb;
+            transform:scale(1.05);
+        }
+
+        .contacto{
+            margin-top:40px;
+            color:#475569;
+            line-height:1.8;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <!-- FOTO -->
+        <img src="foto.jpg" alt="Foto de Caro Salper" class="foto">
+
+        <!-- NOMBRE -->
+        <h1>Hola, soy Caro Salper</h1>
+
+        <!-- DESCRIPCIÓN -->
+        <p class="descripcion-principal">
+            Estudiante de la carrera de Ingeniería en Física Aplicada
+            en la Universidad Tecnológica de la Mixteca (UTM).
+        </p>
+
+        <!-- ARCHIVO -->
+        <div class="archivo">
+
+            <h2>Mi Archivo</h2>
+
+            <p class="descripcion">
+                Este archivo contiene información y ejercicios relacionados
+                con programación estructurada. El presente reporte tiene como finalidad documentar y analizar el proceso de aprendizaje consolidado durante el curso de Programación Estructurada, correspondiente al segundo semestre de la ingeniería en Física Aplicada. A lo largo de la asignatura, nos enfocamos en el dominio del lenguaje C pilar fundamental de la computación moderna utilizando el entorno de desarrollo Geany como herramienta principal para la compilación y depuración de algoritmos.
+
+            </p>
+
+            <a class="boton" href="tarea.pdf" download>
+                Descargar Archivo
+            </a>
+
+        </div>
+
+        <!-- REDES SOCIALES -->
+        <div class="redes">
+
+            <h2>Mis Redes Sociales</h2>
+
+            <a href="https://instagram.com/c.a.r.o_salper" target="_blank">
+                Instagram
+            </a>
+
+            <a href="https://facebook.com/caro.perez" target="_blank">
+                Facebook
+            </a>
+
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="contacto">
+
+            <h2>Contacto</h2>
+
+            <p>Correo institucional: sapc070722@utm.mx</p>
+            <p>Correo personal: carolinaquetzali.salinas.perez@gmail.com</p>
+            <p>Teléfono: +52 9513618643</p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+```
+
+## IMPORTANTE
+
+Para que la foto funcione:
+
+1. Guarda tu foto dentro de la carpeta de la página.
+2. Renómbrala como:
+
+```text
+foto.jpg
+```
+
+Tu carpeta debe verse así:
+
+```text
+Pagina_web
+│
+├── index.html
+├── tarea.pdf
+├── foto.jpg
+```
+
+---
+
+## PARA CAMBIAR TUS REDES
+
+Busca esto:
+
+```html
+https://instagram.com/tuusuario
+```
+
+y cambia `tuusuario` por tu usuario real.
+
+Haz lo mismo con Facebook y GitHub.
+
+---
+
+## PARA CAMBIAR TU CORREO O TELÉFONO
+
+Modifica esta parte:
+
+```html
+
